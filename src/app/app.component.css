@@ -1,9 +1,8 @@
 .bi, .fas:hover {
   color: #006bb4;
 }
-/* .fas:hover {
-    color: #006bb4;
-} */
+
+
 .rfgui-info-toaster { cursor: pointer; height: 18px; width: 18px; content: url("./../assets/icons8-info-50.svg"); }
 .rfgui-changePwd { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-key-50.svg'); }
 /* .rfgui-copy { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-copia-50.png'); } */
