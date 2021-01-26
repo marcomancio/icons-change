@@ -1,10 +1,13 @@
-.bi:hover {
+.bi, .fas:hover {
   color: #006bb4;
 }
-
+/* .fas:hover {
+    color: #006bb4;
+} */
 .rfgui-info-toaster { cursor: pointer; height: 18px; width: 18px; content: url("./../assets/icons8-info-50.svg"); }
 .rfgui-changePwd { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-key-50.svg'); }
-.rfgui-copy { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-copia-50.png'); }
+/* .rfgui-copy { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-copia-50.png'); } */
+.rfgui-copy { cursor: pointer; height: 18px; width: 18px; content: url('https://img.icons8.com/color/48/000000/copy--v1.png'); }
 .rfgui-associate { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-news-50.svg'); }
 .rfgui-cfg-base { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-support-50.svg'); }
 .rfgui-cfg-PA-suspend { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/cfg-pa-suspend.svg'); }
