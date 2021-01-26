@@ -2,7 +2,7 @@
   color: #006bb4;
 }
 
-.rfgui-info-toaster { left: 0.5em !important; top: 0.5em !important; width: 12%; content: url("./../assets/icons8-info-50.svg"); }
+.rfgui-info-toaster { cursor: pointer; height: 18px; width: 18px; content: url("./../assets/icons8-info-50.svg"); }
 .rfgui-changePwd { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-key-50.svg'); }
 .rfgui-copy { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-copia-50.png'); }
 .rfgui-associate { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-news-50.svg'); }
@@ -10,3 +10,7 @@
 .rfgui-cfg-PA-suspend { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/cfg-pa-suspend.svg'); }
 .rfgui-cfg-PA-resume { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/cfg-pa-resume.svg'); }
 .rfgui-cfg-probe-send { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-external-link-50.svg'); }
+.rfgui-delete { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-delete-50.svg'); }
+.rfgui-edit { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-edit-50.svg'); }
+.rfgui-detail { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-opened-folder-50.svg'); }
+.rfgui-ok { cursor: pointer; height: 16px; width: 16px; content: url('./../assets/icons8-ok-50.svg'); }
