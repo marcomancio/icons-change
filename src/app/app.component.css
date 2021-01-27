@@ -3,13 +3,22 @@
 }
 .fas:hover, .far:hover {
     color: #006bb4;
+    cursor: pointer;
 }
+.color-red {
+  color: red;
+}
+.color-green {
+  color: green;
+}
+
 .rfgui-info-toaster { cursor: pointer; height: 18px; width: 18px; content: url("./../assets/icons8-info-50.svg"); }
 .rfgui-changePwd { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-key-50.svg'); }
-/* .rfgui-copy { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-copia-50.png'); } */
 .rfgui-copy { cursor: pointer; height: 18px; width: 18px; content: url('https://img.icons8.com/color/48/000000/copy--v1.png'); }
 .rfgui-associate { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-news-50.svg'); }
 .rfgui-cfg-base { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-support-50.svg'); }
+.rfgui-cfg-tfm-flow { cursor: pointer; font-size: 1.5em; color: orange; }
+.rfgui-cfg-PA { cursor: pointer; font-size: 1.5em; }
 .rfgui-cfg-PA-suspend { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/cfg-pa-suspend.svg'); }
 .rfgui-cfg-PA-resume { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/cfg-pa-resume.svg'); }
 .rfgui-cfg-probe-send { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-external-link-50.svg'); }
@@ -17,3 +26,9 @@
 .rfgui-edit { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-edit-50.svg'); }
 .rfgui-detail { cursor: pointer; height: 18px; width: 18px; content: url('./../assets/icons8-opened-folder-50.svg'); }
 .rfgui-ok { cursor: pointer; height: 16px; width: 16px; content: url('./../assets/icons8-ok-50.svg'); }
+.rfgui-disable { cursor: pointer; font-size: 1.5em; color: red; }
+.rfgui-enable { cursor: pointer; font-size: 1.5em; color: greenyellow; }
+
+.rfgui-cfg-status-ok { color: #4DBD74}
+.rfgui-cfg-status-updating { color: #FFC107}
+.rfgui-cfg-status-not-configured { color: #898989}
