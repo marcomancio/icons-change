@@ -13,11 +13,12 @@
 			<tr *ngFor="let icon of iconsList; let i=index">
 				<th scope="row">{{i}}</th>
 				<td>{{icon.text}}</td>
-				<td><i class="{{icon.old}}"></i></td>
+				<td><i *ngIf="icon.old !== '-'; else noIcon" class="{{icon.old}}"></i></td>
 				<td>
 					<span *ngFor="let newIcon of icon.new; let j=index">
-            <i class="pr-2 {{newIcon}}"></i>
+            <i *ngIf="newIcon !== '-'; else noIcon" class="pr-2 {{newIcon}}"></i>
           </span>
+          <ng-template #noIcon>-</ng-template>
 				</td>
 			</tr>
 		</tbody>
